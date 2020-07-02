@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(36, 49, 49);
+}
+
+#navbar{
+    background: rgb(216,211,211);
+    background: radial-gradient(circle, rgba(216,211,211,1) 80%, rgba(255,255,255,1) 100%);
+}
+
+#main {
+    background-color: rgb(216, 211, 211);
+    margin: 10px;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.post_section {
+    height: 200px;
+    /* border: 3px solid black; */
+}
+
+.slogan {
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+.post_text_field {
+    height: 50px;
+}
+
+/* .wall_section {
+    border: 3px solid black;
+} */
+
+.post {
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px;
+    background-color: white;
+    line-height: 12pt;
+    border-top: 3px solid darkgray;
+}
+
+.comment {
+    border-radius: 15px;
+    margin-left: 15px;
+    border-top: 3px solid darkgray;
+    padding: 10px;
+}
+
+.user_name {
+    font-size: 12pt;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.post_time {
+    font-size: 10pt;
+    display: inline-block;
+}
+
+.post_text {
+    font-size: 12pt;
+}
+
+.form-control.comment_text_field {
+    height: 40px;
+}
+
+svg {
+    float: right;
+}
+
+a {
+    color: rgb(202, 68, 68);
+    font-size: 10pt;
+}
+
+/* div {
+    border: 1px solid black;
+} */
